@@ -7,7 +7,7 @@ public class eighthTask {
     public static int gcd(int a, int b) {
         int gcdValue = 1;
         int c = a<b? a : b;
-        for (int i = 1; i < c; i++) {
+        for (int i = 1; i <= c; i++) {
             if (a%i == 0 && b%i == 0) {
                 gcdValue = i;
             }
